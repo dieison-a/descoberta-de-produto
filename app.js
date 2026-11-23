@@ -1,24 +1,25 @@
-const filters = [...document.querySelectorAll(".filter")];
-const cards = [...document.querySelectorAll(".card")];
-const resultCount = document.querySelector("#result-count");
+﻿const filtros = [...document.querySelectorAll(".filtro")];
+const cartoes = [...document.querySelectorAll(".cartao")];
+const totalResultados = document.querySelector("#total-resultados");
 
-function applyFilter(selected) {
-  let visible = 0;
-  for (const card of cards) {
-    const show = selected === "all" || card.dataset.kind === selected;
-    card.hidden = !show;
-    if (show) visible += 1;
+function aplicarFiltro(selecionado) {
+  let visiveis = 0;
+  for (const cartao of cartoes) {
+    const mostrar = selecionado === "todos" || cartao.dataset.tipo === selecionado;
+    cartao.hidden = !mostrar;
+    if (mostrar) visiveis += 1;
   }
-  resultCount.textContent = `${visible} ${visible === 1 ? "etapa" : "etapas"} em destaque`;
-  for (const button of filters) {
-    const active = button.dataset.filter === selected;
-    button.classList.toggle("is-active", active);
-    button.setAttribute("aria-pressed", String(active));
+  totalResultados.textContent = `${visiveis} ${visiveis === 1 ? "etapa" : "etapas"} em destaque`;
+  for (const botao of filtros) {
+    const ativo = botao.dataset.filtro === selecionado;
+    botao.classList.toggle("ativo", ativo);
+    botao.setAttribute("aria-pressed", String(ativo));
   }
 }
 
-for (const button of filters) {
-  button.addEventListener("click", () => applyFilter(button.dataset.filter));
+for (const botao of filtros) {
+  botao.addEventListener("click", () => aplicarFiltro(botao.dataset.filtro));
 }
 
-applyFilter("all");
+aplicarFiltro("todos");
+

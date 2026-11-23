@@ -1,17 +1,19 @@
-# Product Discovery Casebook
+# Estudo de descoberta de produto
 
-Estudo de caso fictício sobre como transformar dificuldades de implantação em uma oportunidade de produto para uma plataforma SaaS de logística.
+Estudo de caso fictício sobre como transformar dificuldades de implantação em uma oportunidade de produto para uma plataforma de logística. O cenário, a organização, os exemplos e os indicadores foram criados para este protótipo.
 
-O protótipo organiza evidências, decisões, histórias de usuário e indicadores. O filtro da interface permite navegar pelas etapas de descoberta, definição e entrega.
+## Área e semestres relacionados
 
-## Conteúdos relacionados
+Área: produto e requisitos. Conteúdos relacionados: Sistemas de Informação, Processos de Desenvolvimento de Sistemas, Metodologia de Projetos, Gerência de Projetos e Qualidade de Software. Os materiais disponíveis não identificam os semestres específicos dessas disciplinas.
 
-Sistemas de Informação, Processos de Desenvolvimento de Sistemas, Metodologia de Projetos, Gerência de Projetos e Qualidade de Software.
+## Resumo acessível
 
-## Executar
+A página apresenta o desafio, quatro etapas do estudo e filtros para navegar por descoberta, definição e entrega. A estrutura é responsiva, tem títulos hierárquicos e informa o resultado do filtro para leitores de tela.
 
-Abra `index.html` em um navegador. Não há dependências ou serviços externos.
+## Executar localmente
 
-## Privacidade
+Abra `index.html` em um navegador atualizado. Não é necessário servidor, instalação ou conexão com a internet.
 
-Empresa, cenário, indicadores e exemplos são fictícios. O estudo não representa dados ou processos de empregadores.
+## Limitações e transparência
+
+Cenário e dados totalmente simulados; o protótipo funciona sem conexão com a internet e não acessa serviços externos. Este projeto foi elaborado com assistência de inteligência artificial e revisão humana; não representa experiência real, resultado empresarial nem código produzido sem assistência de IA.
