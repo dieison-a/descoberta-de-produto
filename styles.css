@@ -5,7 +5,7 @@
   font-synthesis:none;
   text-rendering:optimizeLegibility;
   --tinta:#14233b;
-  --azul:#4666f5;
+  --azul:#3b52c5;
   --menta:#d9f3e7;
   --linha:#d8d8d3
 }
@@ -51,7 +51,7 @@ a {
   letter-spacing:.13em
 }
 .edicao {
-  color:#69758a
+  color:#586477
 }
 main {
   max-width:1280px;
@@ -84,7 +84,7 @@ h1 em {
   display:flex;
   gap:26px;
   margin-top:34px;
-  color:#7a8493;
+  color:#586477;
   font-size:9px
 }
 .layout-caso {
@@ -100,7 +100,7 @@ h1 em {
   margin:16px 0
 }
 .resumo-caso>p:not(.sobretitulo) {
-  color:#687286;
+  color:#566173;
   line-height:1.7;
   font-size:14px
 }
@@ -124,7 +124,7 @@ h1 em {
 .metrica span {
   font-size:12px;
   line-height:1.5;
-  color:#687286
+  color:#566173
 }
 .filtros {
   display:flex;
@@ -150,7 +150,7 @@ h1 em {
   color:white
 }
 .total-resultados {
-  color:#8992a1;
+  color:#586477;
   margin:18px 0
 }
 .cartoes {
@@ -205,7 +205,7 @@ blockquote {
   padding:7px 8px;
   background:#f0f3ff;
   border-radius:5px;
-  color:#4b61ce;
+  color:#364a9b;
   font-size:8px
 }
 .cartao[hidden] {
@@ -216,7 +216,7 @@ footer {
   display:flex;
   justify-content:space-between;
   padding:20px 0;
-  color:#7b8491;
+  color:#586477;
   font-size:9px
 }
 @media(max-width:850px) {
