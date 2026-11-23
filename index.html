@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Estudo de caso fictício de discovery, requisitos e evolução de produto SaaS.">
+  <title>Rota Clara — Product Discovery Casebook</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#inicio"><span class="mark">RC</span> rota clara</a>
+    <span class="edition">CASEBOOK · 01</span>
+  </header>
+  <main id="inicio">
+    <section class="hero">
+      <p class="eyebrow">PRODUTO · DESCOBERTA · REQUISITOS</p>
+      <h1>Menos fricção.<br><em>Mais entregas no prazo.</em></h1>
+      <p class="intro">Um estudo de caso fictício sobre implantação de uma plataforma logística e como transformar sinais de suporte em melhorias de produto.</p>
+      <div class="hero-meta"><span>CASE FICTÍCIO</span><span>LEITURA DE 5 MIN</span><span>GTI · PORTFÓLIO</span></div>
+    </section>
+    <section class="case-layout" aria-labelledby="case-heading">
+      <aside class="case-summary">
+        <p class="eyebrow">O DESAFIO</p>
+        <h2 id="case-heading">A primeira entrega é a implantação.</h2>
+        <p>Novos lojistas perdiam tempo configurando integrações e não sabiam qual ação resolveria cada pendência.</p>
+        <div class="metric"><strong>3</strong><span>pontos de atrito<br>identificados no cenário</span></div>
+        <div class="metric"><strong>1</strong><span>fluxo priorizado<br>para o primeiro ciclo</span></div>
+      </aside>
+      <div class="case-content">
+        <div class="filters" role="group" aria-label="Filtrar etapas do estudo">
+          <button class="filter is-active" data-filter="all" aria-pressed="true">Tudo</button>
+          <button class="filter" data-filter="discovery" aria-pressed="false">Descoberta</button>
+          <button class="filter" data-filter="definition" aria-pressed="false">Definição</button>
+          <button class="filter" data-filter="delivery" aria-pressed="false">Entrega</button>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+        <div class="cards">
+          <article class="card" data-kind="discovery">
+            <span class="step">01 / DESCOBERTA</span>
+            <h3>Sinais antes de soluções</h3>
+            <p>Agrupar dúvidas recorrentes, mapear a jornada de implantação e separar sintomas de causas prováveis.</p>
+            <ul><li>Escuta de usuários</li><li>Mapa da jornada</li><li>Hipóteses verificáveis</li></ul>
+          </article>
+          <article class="card accent" data-kind="definition">
+            <span class="step">02 / DEFINIÇÃO</span>
+            <h3>Um primeiro recorte</h3>
+            <p>Priorizar uma visão de status das integrações com próxima ação clara, em vez de redesenhar todo o onboarding.</p>
+            <blockquote>“Como lojista, quero entender o que falta na conexão para concluir a implantação sem depender de tentativa e erro.”</blockquote>
+          </article>
+          <article class="card" data-kind="delivery">
+            <span class="step">03 / ENTREGA</span>
+            <h3>Critérios de aceite</h3>
+            <p>O estado da conexão, a causa conhecida e a orientação seguinte devem ser apresentados em linguagem simples.</p>
+            <ul><li>Estado atualizado</li><li>Orientação acionável</li><li>Registro de sucesso ou falha</li></ul>
+          </article>
+          <article class="card" data-kind="delivery">
+            <span class="step">04 / APRENDIZADO</span>
+            <h3>Medir o resultado</h3>
+            <p>Acompanhar conclusão da implantação, reabertura de chamados e tempo até a primeira operação bem-sucedida.</p>
+            <div class="tags"><span>ADOÇÃO</span><span>QUALIDADE</span><span>SUPORTE</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer><span>ROTA CLARA · CENÁRIO FICTÍCIO</span><span>Discovery → decisão → aprendizado</span></footer>
+  </main>
+</body>
+</html>
